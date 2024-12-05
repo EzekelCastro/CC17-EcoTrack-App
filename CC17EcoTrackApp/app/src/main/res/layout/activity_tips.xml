@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:clipToOutline="true"
+    android:layout_margin="40dp">
+
+    <!-- Line Divider -->
+    <View
+        android:id="@+id/line_divider"
+        android:layout_width="368dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="935dp"
+        android:layout_marginStart="3dp"
+        android:background="#808080"
+        android:layout_alignParentTop="true" />
+
+    <!-- Rectangle 55 -->
+    <ImageView
+        android:id="@+id/rectangle_55"
+        android:layout_width="316dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="699dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/image1_52036"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true" />
+
+    <!-- Home Text -->
+    <TextView
+        android:id="@+id/home_text"
+        android:layout_width="183dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="719dp"
+        android:layout_marginStart="151dp"
+        android:text="Home"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif"
+        android:gravity="start"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- Rectangle 66 (4 boxes) -->
+    <FrameLayout
+        android:layout_width="326dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/rectangle_66_background"
+        android:layout_alignParentTop="true">
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="326dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="366dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/rectangle_66_background"
+        android:layout_alignParentTop="true">
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="326dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="527dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/rectangle_66_background"
+        android:layout_alignParentTop="true">
+    </FrameLayout>
+
+    <!-- Rectangle 66 (smaller boxes) -->
+    <FrameLayout
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="233dp"
+        android:layout_marginStart="62dp"
+        android:background="@drawable/rectangle_66_smaller_background"
+        android:layout_alignParentTop="true">
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="233dp"
+        android:layout_marginStart="62dp"
+        android:background="@drawable/rectangle_66_smaller_background"
+        android:layout_alignParentTop="true">
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="394dp"
+        android:layout_marginStart="62dp"
+        android:background="@drawable/rectangle_66_smaller_background"
+        android:layout_alignParentTop="true">
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginStart="62dp"
+        android:background="@drawable/rectangle_66_smaller_background"
+        android:layout_alignParentTop="true">
+    </FrameLayout>
+
+    <!-- Group 2 Image -->
+    <ImageView
+        android:id="@+id/group_2"
+        android:layout_width="411dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginStart="-26dp"
+        android:src="@drawable/image2_5478"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true" />
+
+    <!-- Image with Shadow -->
+    <ImageView
+        android:id="@+id/image_with_shadow"
+        android:layout_width="55dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="2dp"
+        android:src="@drawable/image3_54735"
+        android:background="@drawable/shadow_background"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>

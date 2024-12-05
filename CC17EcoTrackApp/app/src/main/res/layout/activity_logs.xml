@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- Box (Background) -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_background" />
+
+    <!-- Line 8 -->
+    <View
+        android:layout_width="368dp"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:background="@color/gray" />
+
+    <!-- Rectangle 70 (Home Button Background) -->
+    <ImageView
+        android:id="@+id/image_home_button"
+        android:layout_width="316dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="691dp"
+        android:src="@drawable/image1_52331"
+        android:scaleType="fitXY" />
+
+    <!-- Home Text -->
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="183dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="711dp"
+        android:text="Home"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="normal" />
+
+    <!-- Group 10 -->
+    <ImageView
+        android:id="@+id/image_group_10"
+        android:layout_width="326dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="196dp"
+        android:src="@drawable/image2_54777"
+        android:scaleType="fitXY" />
+
+    <!-- Group 9 -->
+    <ImageView
+        android:id="@+id/image_group_9"
+        android:layout_width="326dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="396dp"
+        android:src="@drawable/image3_54776"
+        android:scaleType="fitXY" />
+
+    <!-- Rectangle 55 -->
+    <ImageView
+        android:id="@+id/image_rectangle_55"
+        android:layout_width="158dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="564dp"
+        android:src="@drawable/image4_52386"
+        android:scaleType="fitXY" />
+
+    <!-- Ranking Text -->
+    <TextView
+        android:id="@+id/text_ranking"
+        android:layout_width="183dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="584dp"
+        android:text="Ranking"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="normal" />
+
+    <!-- Group 3 -->
+    <ImageView
+        android:id="@+id/image_group_3"
+        android:layout_width="411dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="-26dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/image5_54718"
+        android:scaleType="fitXY" />
+
+    <!-- Image -->
+    <ImageView
+        android:id="@+id/image_small"
+        android:layout_width="55dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="34dp"
+        android:src="@drawable/image6_54737"
+        android:background="@drawable/shadow_background"
+        android:scaleType="fitXY" />
+
+    <!-- Your Activities Text -->
+    <TextView
+        android:id="@+id/text_your_activities"
+        android:layout_width="251dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="122dp"
+        android:text="Your Activities"
+        android:textSize="32sp"
+        android:textColor="@color/gray"
+        android:textStyle="normal" />
+
+</RelativeLayout>
