@@ -1,0 +1,119 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		login_page
+	 *	@date 		Thursday 05th of December 2024 06:00:30 PM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/login_page" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<View   android:id="@+id/_bg__login_page"
+				android:background="@drawable/_bg__login_page_shape"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="375dp"
+				android:layout_height="812dp" />
+
+			<ImageView android:id="@+id/rectangle_54"
+				android:src="@drawable/rectangle_54"
+				android:contentDescription="rectangle_54"
+				 android:layout_marginStart="23dp"
+				android:layout_marginTop="327dp"
+				android:layout_width="320dp"
+				android:layout_height="34dp" />
+
+			<ImageView android:id="@+id/rectangle_55"
+				android:src="@drawable/rectangle_55"
+				android:contentDescription="rectangle_55"
+				 android:layout_marginStart="23dp"
+				android:layout_marginTop="427dp"
+				android:layout_width="320dp"
+				android:layout_height="34dp" />
+
+			<View   android:id="@+id/line_8"
+				android:background="@drawable/line_8_shape"
+				 android:layout_marginStart="3dp"
+				android:layout_marginTop="935dp"
+				android:layout_width="368dp"
+				android:layout_height="1dp" />
+
+			<ImageView android:id="@+id/_rectangle_54_ek1"
+				android:src="@drawable/_rectangle_54_ek1"
+				android:contentDescription="_rectangle_54_ek1"
+				 android:layout_marginStart="27dp"
+				android:layout_marginTop="692dp"
+				android:layout_width="316dp"
+				android:layout_height="69dp" />
+
+			<TextView android:id="@+id/login"
+				android:fontFamily="Libre Baskerville"
+				android:textSize="25sp"
+				android:textColor="@color/_bg__login_page_color"
+				android:layout_marginLeft="140dp"
+				android:layout_marginTop="712dp"
+				android:layout_width="137.5dp"
+				android:layout_height="47.5dp"
+				android:text="@string/login_string"
+				 />
+
+			<TextView android:id="@+id/_don_t_have_an_account__create_account"
+				android:fontFamily="Libre Baskerville"
+				android:textSize="11sp"
+				android:textColor="@color/_don_t_have_an_account__create_account_color"
+				android:layout_marginLeft="77dp"
+				android:layout_marginTop="772dp"
+				android:layout_width="237.5dp"
+				android:layout_height="21.5dp"
+				android:text="@string/_don_t_have_an_account__create_account_string"
+				 />
+
+			<TextView android:id="@+id/name"
+				android:fontFamily="Libre Baskerville"
+				android:textSize="20sp"
+				android:textColor="@color/name_color"
+				android:layout_marginLeft="140dp"
+				android:layout_marginTop="292dp"
+				android:layout_width="98dp"
+				android:layout_height="38dp"
+				android:text="@string/name_string"
+				 />
+
+			<TextView android:id="@+id/password"
+				android:fontFamily="Libre Baskerville"
+				android:textSize="20sp"
+				android:textColor="@color/name_color"
+				android:layout_marginLeft="118dp"
+				android:layout_marginTop="394dp"
+				android:layout_width="159dp"
+				android:layout_height="38dp"
+				android:text="@string/password_string"
+				 />
+
+			<ImageView android:id="@+id/image"
+				android:src="@drawable/image"
+				android:contentDescription="image"
+				 android:layout_marginStart="73dp"
+				android:layout_marginTop="101dp"
+				android:layout_width="230dp"
+				android:layout_height="151dp" />
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
